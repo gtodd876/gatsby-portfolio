@@ -2,10 +2,18 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import img from '../img/iceland-snae.jpg';
+import mobile from '../img/mobile-iceland.jpg';
+import tablet from '../img/tablet-iceland.jpg';
 
 const HeroSection = styled.div`
   height: 100vh;
-  background-image: url(${img});
+  background-image: url(${mobile});
+  @media (min-width: 450px) and (max-width: 767px) {
+    background-image: url(${tablet});
+  }
+  @media (min-width: 768px) {
+    background-image: url(${img});
+  }
 `;
 
 const FrontPageHeader = styled.div`
