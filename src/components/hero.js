@@ -82,11 +82,10 @@ const SocialIcon = styled.svg`
 const SocialLink = styled.a``;
 
 const ArrowWrapper = styled.div`
-  display: none;
+  display: block;
   position: absolute;
   bottom: 32px;
   @media (min-width: 500px) {
-    display: block;
   }
   @media (min-width: 768px) {
     bottom: 32px;
@@ -106,7 +105,7 @@ const ArrowLink = styled.a`
 `;
 
 const Arrow = styled.svg`
-  visibility: hidden;
+  visibility: visible;
   fill: #d74a41;
   cursor: pointer;
   :hover {
