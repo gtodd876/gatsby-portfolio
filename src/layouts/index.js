@@ -26,19 +26,19 @@ const MasterLayout = ({ data }) => ({
 
 export default MasterLayout;
 
-export const query = graphql`
-  query IndexQuery {
-    allMarkdownRemark {
-      totalCount
-      edges {
-        node {
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query IndexQuery {
+//     allMarkdownRemark {
+//       totalCount
+//       edges {
+//         node {
+//           frontmatter {
+//             title
+//             date(formatString: "DD MMMM, YYYY")
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//   }
+// `;
