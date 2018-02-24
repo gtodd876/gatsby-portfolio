@@ -115,12 +115,6 @@ export default class App extends React.Component {
         <Section>
           <Writing />
         </Section>
-        {/*        ds<Section>
-          <Photo />
-        </Section>
-        <Section>
-          <Notes />
-        </Section>*/}
         <Footer />
       </div>
     );

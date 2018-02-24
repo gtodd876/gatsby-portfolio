@@ -1,15 +1,9 @@
-import Typography from 'typography'
+import Typography from 'typography';
 
-const lightGray = '#454545'
-const darkGray = '#333'
+const lightGray = '#454545';
+const darkGray = '#333';
 
 const typography = new Typography({
-  // googleFonts: [
-  //   {
-  //     name: 'EB Garamond',
-  //     styles: ['400', '700'],
-  //   },
-  // ],
   bodyWeight: 300,
   baseFontSize: '21px',
   scaleRatio: 3.6,
@@ -44,6 +38,6 @@ const typography = new Typography({
       color: darkGray,
     },
   }),
-})
+});
 
-export default typography
+export default typography;
