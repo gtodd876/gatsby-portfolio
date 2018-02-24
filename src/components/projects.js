@@ -22,7 +22,7 @@ const Projects = () => ({
           <Project
             logo={TapifyLogo()}
             url="https://github.com/gtodd876/tapify-react-app"
-            url2="https://warm-escarpment-43459.herokuapp.com/"
+            url2="https://wizardly-villani-b65c20.netlify.com"
             title="Tapify"
             abstract="A tap tempo playlist creator powered by the Spotify API."
           />

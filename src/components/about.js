@@ -38,13 +38,13 @@ export default class About extends React.Component {
           </p>
           <p>
             I've always had a passion for computers and music, in the sense that they are both very
-            creative fields that are constantly evolving. The rush from just starting with an idea, and then putting
-            in the work from inception to completion is one of the best feelings out there. It makes sense that
-            life would eventually lead me towards web development.
+            creative fields that are constantly evolving. The rush from just starting with an idea,
+            and then putting in the work from inception to completion is one of the best feelings
+            out there. It makes sense that life would eventually lead me towards web development.
           </p>
           <p style={{ marginBottom: 0 }}>
             I aim to balance the technical aspects of creating software while always being mindful
-            of what the experience is like from user's point of view. Currently I am an audio
+            of what the experience is from the user's point of view. Currently I am an audio
             engineer doing sound design and mixing, raising a child, and learning how to code.
           </p>
         </Column>
